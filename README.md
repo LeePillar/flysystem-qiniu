@@ -1,17 +1,5 @@
 ## Flysystem Adapter for Qiniu Cloud Storage
 
-:floppy_disk: Flysystem adapter for the Qiniu cloud storage.
-
-[![Build Status](https://travis-ci.org/overtrue/flysystem-qiniu.svg?branch=master)](https://travis-ci.org/overtrue/flysystem-qiniu)
-[![Latest Stable Version](https://poser.pugx.org/overtrue/flysystem-qiniu/v/stable.svg)](https://packagist.org/packages/overtrue/flysystem-qiniu)
-[![Latest Unstable Version](https://poser.pugx.org/overtrue/flysystem-qiniu/v/unstable.svg)](https://packagist.org/packages/overtrue/flysystem-qiniu)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/overtrue/flysystem-qiniu/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/overtrue/flysystem-qiniu/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/overtrue/flysystem-qiniu/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/overtrue/flysystem-qiniu/?branch=master)
-[![Total Downloads](https://poser.pugx.org/overtrue/flysystem-qiniu/downloads)](https://packagist.org/packages/overtrue/flysystem-qiniu)
-[![License](https://poser.pugx.org/overtrue/flysystem-qiniu/license)](https://packagist.org/packages/overtrue/flysystem-qiniu)
-
-[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
-
 # Requirement
 
 -   PHP >= 8.0.2

@@ -1,7 +1,23 @@
 {
     "name": "apixx/flysystem-qiniu",
-    "description": "Flysystem adapter for the Qiniu storage.",
+    "description": "Flysystem adapter for Qiniu storage, PHP 8.0 - 8.5 compatible",
+    "type": "library",
+    "keywords": [
+        "thinkphp",
+        "flysystem",
+        "qiniu",
+        "七牛"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overtrue",
+            "email": "i@overtrue.me"
+        }
+    ],
     "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^6.1 || ^8.0",
         "league/flysystem": "^3.0",
         "qiniu/php-sdk": "^7.2"
     },
@@ -19,35 +35,7 @@
             "apixx\\Qiniu\\Tests\\": "tests"
         }
     },
-    "authors": [
-        {
-            "name": "overtrue",
-            "email": "i@overtrue.me"
-        }
-    ],
-    "license": "MIT",
-    "extra": {
-        "hooks": {
-            "pre-commit": [
-                "composer test",
-                "composer check-style"
-            ],
-            "pre-push": [
-                "composer test",
-                "composer check-style"
-            ]
-        }
-    },
     "scripts": {
-        "post-update-cmd": [
-            "cghooks update"
-        ],
-        "post-merge": "composer install",
-        "post-install-cmd": [
-            "cghooks add --ignore-lock",
-            "cghooks update"
-        ],
-        "cghooks": "vendor/bin/cghooks",
         "check-style": "php-cs-fixer fix --using-cache=no --diff --dry-run --ansi",
         "fix-style": "php-cs-fixer fix --using-cache=no --ansi",
         "test": "vendor/bin/phpunit"
